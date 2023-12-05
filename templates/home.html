@@ -1,0 +1,72 @@
+{% extends 'base.html'%}
+{%block content%}
+
+<body style='background-image: url("../static/Untitled-2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;'>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <span class="img2 d-none d-lg-flex ">
+            </span>
+            <img src="../static/Untitled-1.png" alt="" class="img">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link m-lg-1 fw-bold fs-5 mt-2" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary btn1 me-2 mt-2">Login</button>
+                    </li>
+                </ul>
+                <span class="dots d-none d-lg-flex"></span>
+            </div>
+        </div>
+    </nav>
+    <div class="landing d-flex align-items-center flex-wrap">
+        <div
+            class="container-fluid d-flex justify-content-center justify-content-lg-between justify-content-md-between flex-wrap">
+            <div class="text1 ms-2 me-3">
+                <h1 class="text-center">FEEL THE NATURE</h1>
+            </div>
+            <div class="text2 m-5 m ms-2 me-3 mt-md-3">
+                <h2 class="text-center">Nature is a miracle</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempordunt
+                    ut
+                    labore et dolore
+                    magna aliqua quis
+                    .</p>
+            </div>
+        </div>
+        <div
+            class="container-fluid .footer d-flex justify-content-center justify-content-lg-between justify-content-md-between justify-content-sm-between  flex-wrap">
+            <div class="links ms-2 me-3">
+                <div class="links2 d-none d-lg-flex"></div>
+                <span class="dots d-none d-lg-flex"></span>
+                <a target="_blank" href="https://www.facebook.com/people/Ahmed-Elashkar/100010638816379/">
+                    <i class="fa-brands fa-facebook "></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/ahmed-elashkar-958265248">
+                    <i class="fa-brands fa-linkedin "></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/ahmedelashkarr/">
+                    <i class="fa-brands fa-instagram "></i>
+                </a>
+                <a target="_blank" href="https://wsend.co/201064969070">
+                    <i class="fa-brands fa-whatsapp "></i>
+                </a>
+            </div>
+            <div class="yourlink ms-2 me-3 3mt-sm-3  mt-md-3 ">www.yourlink.com
+                <div class="yourlink2 d-none d-lg-flex"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+{%endblock%}
